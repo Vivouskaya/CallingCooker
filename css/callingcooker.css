@@ -1,0 +1,155 @@
+.cooker {
+    display: block;
+    background-color: rgba(73, 165, 96, 0.5);
+    padding: 20%;
+    width: 90%;
+    -moz-box-shadow: 10px 10px 5px 0px #656565;
+    -webkit-box-shadow: 10px 10px 5px 0px #656565;
+    -o-box-shadow: 10px 10px 5px 0px #656565;
+    box-shadow: 10px 10px 5px 0px #656565;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=5);
+    background-image: url("../img/chef.png");
+    background-repeat:no-repeat;
+    background-position: left;
+    margin-left: 10%;
+}
+
+.client {
+    display: block;
+    background-color: rgba(240, 245, 241, 1);
+    -moz-box-shadow: 10px 10px 5px 0px #656565;
+    -webkit-box-shadow: 10px 10px 5px 0px #656565;
+    -o-box-shadow: 10px 10px 5px 0px #656565;
+    box-shadow: 10px 10px 5px 0px #656565;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=5);
+    padding: 20%;
+    width: 90%;
+    background-image: url("../img/eat.png");
+    background-repeat:no-repeat;
+    background-position: left;
+    margin-right: 10%;
+}
+
+.logins {
+    margin-top: 10%;
+}
+
+.logs {
+    margin-top: 5%;
+}
+
+.navbar {
+    background-color: mediumseagreen;
+    max-height: 20px;
+}
+
+.titreresto {
+    display: block;
+    font-size: 500%;
+    font-family: bunny;
+    text-align: center;
+}
+
+.vignette {
+    margin-top: 2%;
+}
+
+@font-face {
+    font-family: script;
+    src: url(../fonts/alwaysbold.ttf);
+}
+
+@font-face {
+    font-family: bunny;
+    src: url(../fonts/bunny.ttf);
+}
+
+.calling {
+    margin-top: -6%;
+    font-size: 80px;
+    font-family: script;
+}
+
+.panel-heading {
+    font-size: 150%;
+}
+
+.alert {
+    position: absolute;
+    margin-top: -7%;
+}
+
+.list {
+    margin-top: 10%;
+}
+
+.block {
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.addmenu {
+
+    display: block;
+
+}
+
+.buttonAddMenu {
+    margin-left: 43.5%;
+    margin-top: 0.5%;
+}
+
+.panel-danger {
+    margin-top: 3%;
+    margin-left: 20%;
+    text-align: center;
+    width: 60%;
+    padding-bottom: 10%;
+}
+
+.field {
+    font-size: 160%;
+    margin-top: 20%;
+}
+
+body {
+    overflow-x:hidden;
+}
+
+#open {
+    height: 15%;
+    width: 15%;
+
+}
+
+#close {
+    height: 15%;
+    width: 15%;
+
+}
+
+#online {
+    height: 15%;
+    width: 15%;
+}
+
+#offline {
+    height: 15%;
+    width: 15%;
+}
+
+#like {
+    height: 10%;
+    width: 10%;
+}
+
+#unlike {
+    height: 10%;
+    width: 10%;
+}
+
+#registerClient {
+    display: block;
+    position: absolute;
+    margin-top: -20%;
+}
